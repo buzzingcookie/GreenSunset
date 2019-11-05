@@ -33,7 +33,6 @@ tabItems.forEach(item => {
 	item.addEventListener('click', selectItem);
 });
 
-
 // GoogleMap
 function initMap() {
 	// The location of Uluru
@@ -44,7 +43,7 @@ function initMap() {
 	// The marker, positioned at Uluru
 	var marker = new google.maps.Marker({position: uluru, map: map});
 }
-
+	// 
 	var map = new google.maps.Map(document.getElementsById('map'), options);
 
 
